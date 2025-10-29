@@ -1,4 +1,7 @@
 .main{
     background-color: #121212;
     color: #34C94B;
+    font-family: 'Poppins', sans-serif;
+    border-radius:.75rem;
+    border: 1 px solid black;
 }
