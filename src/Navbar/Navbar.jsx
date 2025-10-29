@@ -4,8 +4,11 @@ import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Search from "../Search/Search.jsx";
 import styles from "./Navbar.module.css";
-
+// import Feedback from "../FeedbackForm/Feedback.jsx";
+import { useState } from "react";
 function Navbar({ searchData }) {
+  const [showFeedback, setShowFeedback] = useState(false);
+
   return (
     <nav className={styles.navbar}>
       {/* <Link to="/">
@@ -17,7 +20,9 @@ function Navbar({ searchData }) {
         searchData={searchData}
       />
       {/* <Button>Give Feedback</Button> */}
-      <Button value="Give Feedback" />
+      <span>
+        <Button value="Give Feedback" />
+      </span>
     </nav>
   );
 }

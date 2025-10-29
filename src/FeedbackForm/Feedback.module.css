@@ -1,0 +1,42 @@
+/* Container for the dropdown panel */
+.feedback-dropdown {
+  position: absolute;
+  top: 100%; /* appears below the button */
+  right: 0;
+  background-color: #fff;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+/* Input and textarea styling */
+.feedback-dropdown input,
+.feedback-dropdown textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1.5px solid #28a745;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+/* Submit button */
+.feedback-dropdown button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-dropdown button:hover {
+  background-color: #218838;
+}
