@@ -1,0 +1,15 @@
+.custom-navbar {
+  background-color: #121212;
+}
+
+.custom-nav-link {
+  color: #ffffff !important;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-nav-link.active {
+  color: #34C94B;
+  border-bottom: #34C94B solid 3px;
+  
+}
