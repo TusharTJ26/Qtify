@@ -20,14 +20,11 @@ const CardItem = (props) => {
       <CardActionArea>
         <CardMedia
           component="img"
-          // height="140"
-
-          // image={sampleImage}
           image={album.image}
           alt={album.title}
           sx={{
             height: "10.625rem",
-            width: "10rem",
+            width: "100%",
             borderTopLeftRadius: "0.625rem",
             borderTopRightRadius: "0.625rem",
           }}
@@ -39,7 +36,7 @@ const CardItem = (props) => {
             borderBottomLeftRadius: "1rem",
             borderBottomRightRadius: "1rem",
             padding: "0.2rem 0.5rem",
-            width: "10rem",
+            width: "100%",
             height: "2rem",
           }}
         >
@@ -64,8 +61,6 @@ const CardItem = (props) => {
             {/* 100 Follows */}
             {album.follows} Follows
           </Typography>
-          {/* </CardContent>
-          <CardContent> */}
           <Typography variant="body2" sx={{ color: "white" }}>
             {/* New Bollywood */}
             {album.title}

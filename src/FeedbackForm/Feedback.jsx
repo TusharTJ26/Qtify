@@ -22,17 +22,3 @@ export default function Feedback() {
     </>
   );
 }
-
-// export default function Feedback() {
-//   return (
-//     <>
-//       <h1>Feedback</h1>
-//       <form>
-//         <input type="text" placeholder="Full Name" />
-//         <input type="email" placeholder="Email ID" />
-//         <input type="text" placeholder="Subject" />
-//         <textarea name="Description" id=""></textarea>
-//       </form>
-//     </>
-//   );
-// }

@@ -47,12 +47,6 @@ const AlbumRow = () => {
     fetchTop();
     fetchNew();
   }, []);
-  // console.log(topAlbum);
-
-  // const handleCollapse = (refrence) => {
-  //   const ref = "set" + reference;
-  //   ref(!refrence);
-  // };
 
   return (
     // <CardGrid albums={topAlbum} active/>

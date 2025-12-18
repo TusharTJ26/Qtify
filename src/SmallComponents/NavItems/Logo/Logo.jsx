@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImage from "../assets/Qtify-logo.png";
+import LogoImage from "/assets/Qtify-logo.png";
 
 export default function Logo() {
   return (

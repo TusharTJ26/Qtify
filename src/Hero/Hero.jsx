@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import heroImage from "../assets/headphones.png"
+import heroImage from "/assets/headphones.png";
 
 function Hero() {
   return (
@@ -10,10 +10,7 @@ function Hero() {
         <h1>Over thousands podcast episodes</h1>
       </div>
       <div>
-        <img
-          src={heroImage}
-          alt="headphones"
-        />
+        <img src={heroImage} alt="headphones" />
       </div>
     </div>
   );

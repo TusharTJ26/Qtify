@@ -1,4 +1,4 @@
-import sampleImage from "../assets/sample.png";
+import sampleImage from "/assets/sample.png";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -17,6 +17,7 @@ const Footer = () => {
         display: "flex",
         borderTop: "solid white 2px",
         paddingTop: "2rem",
+        gap: "15%",
       }}
     >
       <div>
@@ -67,8 +68,9 @@ const Footer = () => {
       <div
         style={{
           alignItems: "center",
-          marginLeft: "15%",
+          // marginLeft: "15%",
           marginRight: "auto",
+          width: "50%",
         }}
       >
         <div>
@@ -80,7 +82,9 @@ const Footer = () => {
           />
         </div>
         <div>
-          <Box sx={{ width: "42.25rem" }}>
+          {/* <Box sx={{ width: "42.25rem" }}> */}
+          {/* <Box sx={{ width: "42.25rem" }}> */}
+          <Box sx={{ width: "100%" }}>
             <Stack
               spacing={2}
               direction="row"

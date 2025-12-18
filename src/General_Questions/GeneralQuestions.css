@@ -1,33 +1,35 @@
-.adjustWidth{
-  width: 71rem;
-  margin: auto;
-  padding: auto;
-  position: relative;
-  left: 9.5rem;
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.question {
+  width: 80%;
 }
 
 .accordion-item {
-  border: 1px solid white !important; 
+  border: 1px solid white !important;
   border-radius: 10px !important;
-  margin-bottom: .5rem ;        
+  margin-bottom: 0.5rem;
   overflow: hidden; /* helps preserve rounded corners */
 }
 .accordion-button {
   color: white; /* Blue text */
-  background-color: #121212; 
+  background-color: #121212;
 }
 
 /* 🟢 Arrow color */
 .accordion-button::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300ff00' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300ff00' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: 1rem;
-
 }
-.accordion-body{
-    color:#121212;
-    background-color: white;
-    text-align: left;
+.accordion-body {
+  color: #121212;
+  background-color: white;
+  text-align: left;
 }
 .accordion-button:not(.collapsed) {
   background-color: #121212; /* your custom color */
@@ -39,4 +41,3 @@
   background-repeat: no-repeat;
   background-size: 1rem;
 }
-

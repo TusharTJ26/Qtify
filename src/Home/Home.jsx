@@ -1,6 +1,6 @@
 import React from "react";
 // import { useState } from 'react'
-// import reactLogo from '../assets/react.svg'
+// import reactLogo from '/assets/react.svg'
 // import viteLogo from '/vite.svg'
 import "../App.css";
 import Hero from "../Hero/Hero";
@@ -12,7 +12,7 @@ import Footer from "../Footer/Footer";
 import styles from "./Home.module.css";
 function Home() {
   return (
-    <>
+    <div style={{ width: "100%" }}>
       <div>
         <Navbar />
       </div>
@@ -35,7 +35,7 @@ function Home() {
       </div>
       <br />
       <br />
-      <div>
+      <div style={{ width: "100%" }}>
         <GeneralQuestions />
       </div>
       <br />
@@ -43,7 +43,7 @@ function Home() {
       <div>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
